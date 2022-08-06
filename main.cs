@@ -25,6 +25,7 @@ class Program
         Console.Write("Apakah Anda Menikah? (true/false): ");
         bool.TryParse(Console.ReadLine(), out isMenikah);
 
+        Console.WriteLine("\n");
         Console.WriteLine("Nama: {0}", nama);
         Console.WriteLine("Alamat: {0}", alamat);
         Console.WriteLine("Umur: {0}", umur);
